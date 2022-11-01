@@ -147,5 +147,5 @@ a:hover::after{
 }
 
 .float-left{
-     margin-right:10px;
+     justify-content: space-between;
 }

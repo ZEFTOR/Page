@@ -1,0 +1,138 @@
+
+.all{
+     background-size: cover;
+     background-image: url('https://static.wixstatic.com/media/3d153a_55117bca35414e3d8513ef964479994d~mv2.gif');
+     font-family: "Helvetica", sans-serif;
+     height: 100vh;
+     width: 100vw;
+     padding: 0% 8%;
+}
+
+
+.all img{
+  width: 35px;
+  height: 35px;
+}
+
+
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navButtons{
+    padding: 28px 0px;
+}
+
+
+.navButtons li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+
+
+h1{
+    color:rgb(255, 255, 255);
+    font-size:100px; 
+    text-align:center;
+    margin: 50px;
+    margin-top: 125px;
+}
+
+
+p{
+    color:rgba(255, 255, 255, 0.8);
+    font-size:30px; 
+    text-align:center;
+    margin:90px;
+}
+
+
+hr{
+    width:auto;
+    height:5px;
+    border-width:0;
+    background-color:white;
+}
+
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.divButtons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+.divButton{ 
+    background: rgba(204, 200, 200, 0.15); 
+    margin: 0 10px; 
+    font-size:12px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 80px; 
+    height: 80px; 
+} 
+
+
+.divButton img{
+    width: 50%;
+    height: 50%; 
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px; 
+}
+
+
+.divButton a{ 
+    text-align:center;
+    margin-top: 0px; 
+    font-size:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.copyright{ 
+    position: fixed;
+    text-align: Left;
+    bottom: 10px;
+    color:rgba(255, 255, 255, 0.33)
+}  
+
+
+a::after{
+    text-align: right;
+    font-size: 19px;
+    content: '';
+    background: rgba(255, 255, 255, 0.85);
+    width: 0; 
+    height: 2px;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+} 
+
+
+a{
+    text-decoration: none;
+    padding:5px 0;
+    color: white;
+    position: relative;
+}
+
+
+a:hover::after{
+    width:100%;
+}

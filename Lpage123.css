@@ -146,6 +146,3 @@ a:hover::after{
      border: 3px solid rgb(255, 255, 255);
 }
 
-.float-left{
-    padding-right: 10px;
-}

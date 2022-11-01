@@ -145,3 +145,7 @@ a:hover::after{
      border-radius:5%;
      border: 3px solid rgb(255, 255, 255);
 }
+
+.float-left{
+     margin-right:10px;
+}
